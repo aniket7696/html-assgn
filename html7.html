@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+    <head>
+        <<title>Forms</title>
+    </head>
+    <body>
+        <form>
+        <table border=1 style=background-color:lightblue>
+            <caption>Employee Details Form</caption>
+            <tr>
+                <td>Name</td> <td><input type=text name=ename size=20 placeholder=Fullname></td>
+             </tr>
+             <tr>
+                <td>Employee Code</td> <td><input type=text name=ecode size=10</td>
+            </tr>
+            <tr>
+                <td>Department</td> <td><input type=radio name=dept>Admin<br>
+                                        <input type=radio name=dept>HR<br>
+                                        <input type=radio name=dept>Technical<br>
+                                        <input type=radio name=dept>Accounts<br>
+                                    </td>
+           </tr>
+           <tr>
+               <td>Date of Joining</td> <td><input type=date name=doj></td>
+           </tr>
+           <tr>
+               <td>Address</td> <td><textarea name=add placeholder="Enter your address"></textarea></td>
+           </tr>
+           <tr>
+               <td>Training Program Attended</td> <td><input type=checkbox name=training>HTML/DHTML<br>
+                                                      <input type=checkbox name=training>Java<br>
+                                                      <input type=checkbox name=training>Client/Server<br>
+                                                      <input type=checkbox name=training>.NET<br>
+                                                  </td>
+           </tr>
+           <tr>
+               <td>Training Program Need To Attend</td> <td><select>
+                                                            <option value="javascript">Javascript</option>
+                                                            <option value="COBRA">COBRA</option>
+                                                            <option value="VB8">VB8</option>
+                                                            <option value="Python">Python</option>
+                                                            </select>
+                                                        </td>
+           </tr>
+           <tr>
+               <td>Send the information at:</td> <td><a href="mailto:empinfo@capgemini.com">Contact us</a></td>
+           </tr>
+        </table>
+        </form>
+    </body>
+</html>
